@@ -1,0 +1,24 @@
+th, td{
+	padding: 4px;
+}
+
+.form{
+	background-image: url("flower.jpg");
+	height: 500px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.width500{
+	width: 500;
+}
+
+.center{
+	valign: center;
+}

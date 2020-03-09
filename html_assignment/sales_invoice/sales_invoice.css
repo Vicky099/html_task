@@ -1,0 +1,78 @@
+th, td{
+	padding: 3px;
+}
+.move-right{
+	float: right;
+}
+
+.full-width{
+	width: 100%;
+}
+
+.text-size-15{
+	font-size: 20px;
+}
+
+.text-blue{
+	color: #01077E;
+}
+
+.bg-blue{
+	background: #01077E;
+}
+
+.text-white{
+	color: white;
+}
+
+.width60{
+	width: 60%;
+}
+
+.float-right{
+	float: right;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.width50{
+	width: 50%;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.width25{
+	width: 25%;
+}
+
+.container{
+	padding-left: 5%;
+	padding-right: 5%
+}
+
+.text-center{
+	text-align: center;
+}
+
+.width5{
+	width: 5%;
+}
+
+.width15{
+	width: 15%;
+}
+
+.width20{
+	width: 20%;
+}
+
+.width40{
+	width: 40%;
+}
+.padleft100{
+	padding-left: 50px;
+}

@@ -1,0 +1,52 @@
+.full-width{
+	width: 100%;
+}
+
+.container{
+/*	padding-left: 20px;*/
+	padding-right: 20px;
+	page-break-inside: avoid;
+}
+
+td, th{
+	padding: 3px;
+}
+
+.width70{
+	width: 70%;
+}
+
+.width10{
+	width: 10%;
+}
+
+.width20{
+	width: 20%;
+}
+.width30{
+	width: 30%;
+}
+
+.bg-skyblue{
+	background: #b3ffe6;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.table2{
+    margin-left: 40px;
+}
+.list-style{
+	list-style-type: none;
+}
+

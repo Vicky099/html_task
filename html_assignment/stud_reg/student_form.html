@@ -1,0 +1,113 @@
+<html>
+    <head>
+        <title>HTML Table</title>
+		<link rel="stylesheet" type="text/css" href="student_form.css">
+    </head>
+    <body>
+        <form method="" action="">
+            <table border="1" align="center" cellspacing="0" class="form width500">
+                <tr><td colspan="2" class="text-center"><h2><b> Student Registration form</b></h2></td></tr>
+                <tr>
+                    <th> First Name</th>
+                    <td><input type="text" name="fn" id="fn1" maxlength="10" title=" First Name" required/></td>
+                </tr>
+                <tr>  
+                    <th>Last Name</th>
+                    <td><input type="text"/></td>
+                </tr>
+                <tr>
+                    <th> Gender</th>
+                    <td>
+                        Male<input type="radio" name="g" value="m"/>
+                        Female<input type="radio" name="g" value="f"/>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Email</th>
+                    <td><input type="Email"/></td>
+                </tr>
+				<tr>
+					<th> Password</th>
+					<td><input type="Password"/></td>
+				</tr>
+				<tr>
+					<th> Confirm password</th>
+					<td><input type=" Confirm password"/></td>
+				</tr>
+				<tr>
+					<th>Website</th>
+					<td><input type="Website"/></td>
+				</tr>
+				<tr>
+        			<th>Qualification</th>
+        			<td>
+        				10th<input type="radio" name="q" value="t"/>
+						12th<input type="radio" name="q" value="t"/>
+						Graduation<input type="radio" name="g" value="f"/>    
+					</td>
+				</tr>
+        		<tr>
+                	<th>Address 1</th>
+                	<td><input type="Address"/></td>
+                </tr>
+
+                <tr>
+                	<th>Address 2</th>
+                    <td><input type="Address"/></td>
+                </tr>
+
+				<tr>
+					<th>Country</th>
+					<td>
+						<select name="country">
+							<option value="" selected="selected" disabled="disabled">Select your country</option>
+							<option value="1">India</option>
+							<option value="2">Pakistan</option>
+						</select>
+					</td>
+				</tr>
+
+				<tr>
+					<th>City</th>
+					<td>
+						<select name="City">
+							<option value="" selected="selected" disabled="disabled">Select your City</option>
+							<option value="1">Mumbai</option>
+							<option value="2">Pune</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<th>Phone Number</th>
+					<td><input type="number"/></td>
+				</tr>
+				<tr>
+					<th>Message</th>
+					<td><textarea rows="2" rowspan="20"></textarea></td>
+				</tr>
+
+				<tr>
+					<th> Hobbies</th>
+					<td>
+						hobby1<input type="checkbox" name="x[]" value="h"/>
+						hobby2<input type="checkbox" name="x[]" value="h2"/>
+						hobby3<input type="checkbox" name="x[]" value="h3"/>
+					</td>
+				</tr>
+				<tr>
+					<th> DOB</th>
+					<td><input type="date"/></td>
+				</tr>
+				<tr>
+					<th>Upload Your Pic</th>
+					<td><input type="file"/></td>
+				</tr>
+				<tr>
+					<td colspan="2" align="center">
+						<input type="submit" value="Submit"/>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body>
+</html>

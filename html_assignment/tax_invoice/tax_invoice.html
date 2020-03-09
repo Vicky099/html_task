@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Invoice CSS</title>
+		<style type="text/css">
+			.backgroud-blue{
+				background: #0000b3;
+			}
+
+			.text-white{
+				color: white;
+			}
+
+			.background-skyblue{
+				background: skyblue;
+			}
+
+			th, td {
+				padding: 5px;
+			}
+
+			.color-blue{
+				border: 2px solid #020A95;
+			}
+
+		</style>
+	</head>
+
+	<body>
+		<table width="100%" cellspacing="0" border="1">
+			<tr>
+				<th class="backgroud-blue text-white" colspan="4">Billing Details</th>
+				<th class="backgroud-blue text-white" colspan="4">Shipping Details</th>
+				<th class="backgroud-blue text-white" colspan="4">Transport Details</th>
+			</tr>
+			<tr>
+				<td colspan="4">
+					Purchaser Name<br>
+					GSTN :
+				</td>
+
+				<td colspan="4">
+					Reciever Name<br>
+					GSTN :
+				</td>
+
+				<td colspan="4">
+					Transpoter Name<br>
+					GSTN :
+				</td>
+			</tr>
+
+			<tr class="background-skyblue">
+				<td width="10%" rowspan="2" colspan="2">Billing Address</td>
+				<td width="30%" rowspan="2" colspan="2"></td>
+				<td width="10%" rowspan="2" colspan="2">Delivery Address</td>
+				<td width="30%" rowspan="2" colspan="2"></td>
+
+				<td width="10%" colspan="2">Address</td>
+				<td width="30%" colspan="2"></td>
+			</tr>
+
+			<tr class="background-skyblue">
+				<td width="10%" colspan="2">E-Bill No:</td>
+				<td width="20%" colspan="2"></td>
+			</tr>
+
+			<tr class="background-skyblue">
+				<td colspan="2">Ref No:</td>
+				<td colspan="2"></td>
+				<td colspan="2">Contact No:</td>
+				<td colspan="2"></td>
+				<td colspan="2">Vehicle No :</td>
+				<td colspan="2"></td>
+			</tr>
+		</table>
+		<br><br>
+		<table width="100%" cellspacing="0" border="1" bordercolor="white">
+			<tr class="backgroud-blue text-white">
+				<th rowspan="2">Sr. No</th>
+				<th rowspan="2">Description</th>
+				<th rowspan="2">QTY</th>
+				<th rowspan="2">Rate</th>
+				<th rowspan="2">Total</th>
+				<th rowspan="2">Disc</th>
+				<th rowspan="2">Taxable Value</th>
+				<th colspan="2">CGST</th>
+				<th colspan="2">SGST</th>
+				<th rowspan="2">Total Amount</th>
+			</tr>
+			<tr class="backgroud-blue text-white">
+				<td>Rate</td>
+				<td>Amount</td>
+				<td>Rate</td>
+				<td>Amount</td>
+			</tr>
+
+			<tr class="color-blue">
+				<td>1</td>
+				<td>Sales of Good 0000</td>
+				<td>10</td>
+				<td>25,100.00</td>
+				<td>2,51,000.00</td>
+				<td>1,000.00</td>
+				<td>2,50,000.00</td>
+				<td>6%</td>
+				<td>15,000.00</td>
+				<td>0%</td>
+				<td>15,000.00</td>
+				<td>2,80,000.00</td>
+			</tr>
+			<tr class="color-blue">
+				<td>2</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>-</td>
+				<td></td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr class="color-blue">
+				<td>3</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>-</td>
+				<td></td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr class="color-blue">
+				<td>4</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>-</td>
+				<td></td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr class="color-blue">
+				<td>5</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>-</td>
+				<td></td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr class="color-blue">
+				<td>6</td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td>-</td>
+				<td></td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>0%</td>
+				<td>-</td>
+				<td>-</td>
+			</tr>
+			<tr class="background-skyblue">
+				<td colspan="4">Total Amount</td>
+				<td></td>
+				<td>1,000.00</td>
+				<td>2,50,000.00</td>
+				<td colspan="2">15,000.00</td>
+				<td colspan="2">15,000.00</td>
+				<td>2,80,000.00</td>
+			</tr>
+			<tr class="background-skyblue">
+				<td colspan="11">Other Charges</td>
+				<td>-</td>
+			</tr>
+			<tr class="background-skyblue">
+				<td colspan="4">TOTAL INVOICE VALUE (in figures)</td>
+				<td colspan="7">1,80,000.00</td>
+				<td></td>
+			</tr>
+			<tr class="backgroud-blue text-white">
+				<td colspan="4">TOTAL INVOICE VALUE (in words)</td>
+				<td colspan="8">Rupees Two Lac And Eighty Thousand only</td>
+			</tr>
+		</table>
+	</body>
+</html>
